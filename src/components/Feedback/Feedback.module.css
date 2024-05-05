@@ -1,0 +1,23 @@
+.good {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  color: green;
+}
+
+.bad {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  color: red;
+}
+
+.total {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  color: rgb(55, 175, 175);
+}
+
+.positive {
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  color: black;
+}
