@@ -46,12 +46,15 @@ export default function App() {
         onResetClick={onResetButtonClick}
         total={totalFeedback}
       />
-      <Feedback
-        feedback={feedback}
-        total={totalFeedback}
-        positive={positiveFeedback}
-      />
-      <Notification total={totalFeedback} />
+      {totalFeedback > 0 ? (
+        <Feedback
+          feedback={feedback}
+          total={totalFeedback}
+          positive={positiveFeedback}
+        />
+      ) : (
+        <Notification total={totalFeedback} />
+      )}
     </div>
   );
 }
